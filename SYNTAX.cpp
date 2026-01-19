@@ -64,6 +64,21 @@ int main() {
 
 
 
+	/*КОНСТРУКЦИЯ ВЫБОРКИ*/
+
+	switch (choice) {
+	case 1: cout << "Игра началась! Ура!!";
+			break;
+	case 1: cout << "Вы зашли в настройки";
+			break;
+	case 1: cout << "Вы вышли из игры(";
+			break;
+	default: cout << "Такого пункта меню нет :с";
+			break;
+	}
+
+
+
 	/*ЦИКЛ WHILE*/
 
 	/*создаем счетчик*/
@@ -120,3 +135,4 @@ int main() {
 		cout << "Элемент " << nums.at(i) << endl;
 	}
 }
+
